@@ -1,0 +1,18 @@
+language: ruby
+rvm:
+- 2.4.0
+branches:
+  only:
+  - custom
+script: bundle exec jekyll build --config ./_config.yml
+deploy:
+  provider: pages
+  github_token: $GITHUB_TOKEN
+  skip_cleanup: true
+  local_dir: _site
+  on:
+    branch: custom
+after_deploy:
+  - "curl -o /tmp/travis-merge-gh-pages https://raw.githubusercontent.com/WangQiru/travis-merger/master/travis-merge-gh-pages"
+  - "chmod a+x /tmp/travis-merge-gh-pages"
+  - "BRANCH_TO_MERGE=gh-pages BRANCH_TO_MERGE_INTO=master GITHUB_REPO=WangQiru/wangqiru.github.io /tmp/travis-merge-gh-pages"

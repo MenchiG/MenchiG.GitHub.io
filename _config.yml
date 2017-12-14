@@ -83,6 +83,7 @@ exclude:
   - npm-debug.log.*
   - /node_modules
   - /vendor
+  - .travis.yml
 
 ## Plugins ##
 plugins:
