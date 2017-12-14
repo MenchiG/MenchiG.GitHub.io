@@ -1,10 +1,7 @@
 {
-  "editor.tabSize": 2,
-  "beautify.config": {
-    "indent_size": 2
-  },
-  "files.associations": {
-    "*.html": "jekyll"
-  }
+    "editor.formatOnSave": false,
+    "git.enableSmartCommit": true,
+    "editor.tabSize": 1,
+    "editor.detectIndentation": false,
+    "html.format.enable": false
 }
-

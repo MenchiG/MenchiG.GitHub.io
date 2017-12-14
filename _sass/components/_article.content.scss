@@ -72,14 +72,14 @@
   }
   figure {
     margin: $content-gap 0;
+    border-top-left-radius: $code-font-size;
+    border-top-right-radius: $code-font-size;    
     &:before {
       content: attr(data-lang);
-      background-color: $text-background-color;
       display: block;
-      border-top-left-radius: $code-font-size / 2;
-      border-top-right-radius: $code-font-size / 2;
+      border-top-left-radius: $code-font-size;
+      border-top-right-radius: $code-font-size;
       padding: $code-font-size / 2 $code-font-size $code-font-size / 2 0;
-      color: $decorate-color;
       font-weight: $bold-font-weight;
       font-size: $base-font-size;
       text-align: right;

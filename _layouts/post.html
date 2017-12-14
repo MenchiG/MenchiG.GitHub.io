@@ -25,9 +25,6 @@ layout: blog-default
 					{%- else -%}
 						<meta itemprop="dateModified" content="{{ page.date | date_to_xmlschema }}">
 					{%- endif -%}
-					<div class="article-license">
-						{%- include blog/license.html -%}
-					</div>
 				</footer>
 				{%- if page.comment != false -%}
 						<section>{%- include utils/comment-disqus.html -%}</section>
@@ -40,7 +37,7 @@ layout: blog-default
 	</div>
 </div>
 
-<script src="//cdn.bootcss.com/toc/0.3.2/toc.min.js"></script>
+<script src="/assets/js/toc.min.js"></script>
 <script type="text/javascript">
 	window.throttle = function(func, wait) {
 	  var args, result, thisArg, timeoutId, lastCalled = 0;
