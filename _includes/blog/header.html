@@ -28,14 +28,14 @@
       {%- assign __locale = site.data.locale.NAV.HOME -%}
       {%- include snippets/locale-to-string.html -%}
       <li><a href="{{ href }}">{{ __return }}</a></li>
-      {%- if site.paths.all -%}
-        {%- assign __path = site.paths.all -%}
+      {%- if site.paths.archive -%}
+        {%- assign __path = site.paths.archive -%}
       {%- else -%}
-        {%- assign __path = '/all.html' -%}
+        {%- assign __path = '/archive.html' -%}
       {%- endif -%}
       {%- include snippets/prepend-baseurl.html -%}
       {%- assign href = __return -%}
-      {%- assign __locale = site.data.locale.NAV.ALL -%}
+      {%- assign __locale = site.data.locale.NAV.ARCHIVE -%}
       {%- include snippets/locale-to-string.html -%}
       <li><a href="{{ href }}">{{ __return }}</a></li>
       {%- for list in site.nav_lists -%}
