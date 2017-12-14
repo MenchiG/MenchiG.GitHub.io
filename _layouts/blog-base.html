@@ -14,7 +14,8 @@
       }
     {%- endif -%}
     </style>
-    <script src="/blog/assets/js/jquery.min.js"></script>
+    {%- assign __path = '/assets/js/jquery.min.js' -%} {% include snippets/prepend-baseurl.html %}
+    <script src="{{ __return }}"></script>
     {% include utils/mathjax.html %}
   </head>
   <body>

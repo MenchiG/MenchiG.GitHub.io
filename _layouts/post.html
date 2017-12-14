@@ -36,8 +36,8 @@ layout: blog-default
 		</div>
 	</div>
 </div>
-
-<script src="/blog/assets/js/toc.min.js"></script>
+{%- assign __path = '/assets/js/toc.min.js' -%} {% include snippets/prepend-baseurl.html %}
+<script src="{{ __return }}"></script>
 <script type="text/javascript">
 	window.throttle = function(func, wait) {
 	  var args, result, thisArg, timeoutId, lastCalled = 0;

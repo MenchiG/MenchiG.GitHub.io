@@ -15,7 +15,7 @@
 # url:  #the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl: /
 title: Henry's Blog
-description: This is Henry's Blog, a Programmer, a Data Visualiser, a Photographer and an Entrepreneur. Find me on Github.com/WangQiru and LinkedIn.com/in/WangQiru, or contact me Henry"at"WangQiru.com
+description: This is Henry's Blog, a Programmer, a Data Visualiser, a Photographer and an Entrepreneur.
 
 nav_lists:
   - titles:
@@ -58,7 +58,7 @@ leancloud:
 
 ## Paginate ##
 paginate: 5
-paginate_path: /blog/page:num
+paginate_path: /page:num
 
 ## Post excerpts ##
 excerpt_separator: <!--more-->
@@ -85,7 +85,7 @@ exclude:
   - /vendor
 
 ## Plugins ##
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-paginate

@@ -1,14 +1,15 @@
 <header class="m-page-header main clearfix">
-  {%- if site.paths.base -%}
-    {%- assign __path = site.paths.base -%}
-  {%- else -%}
-    {%- assign __path = '/' -%}
-  {%- endif -%}
-  {%- include snippets/prepend-baseurl.html -%}
   {%- if site.title -%}
   <div class="site-logo">
-   <img src="/blog/assets/images/logo/apple-icon.png" alt="Logo" height="100%" width="100%">
+    {%- assign __path = '/assets/images/logo/apple-icon.png' -%} {% include snippets/prepend-baseurl.html %}
+   <img src="{{ __return }}" alt="Logo" height="100%" width="100%">
  </div>
+   {%- if site.paths.base -%}
+   {%- assign __path = site.paths.base -%}
+  {%- else -%}
+   {%- assign __path = '/' -%}
+  {%- endif -%}
+  {%- include snippets/prepend-baseurl.html -%}
     <a class="site-title" title="{%- if site.description -%}{{ site.description }}{%- endif -%}" href="{{ __return }}">{{ site.title }}</a>
   {%- endif -%}
   <nav>
