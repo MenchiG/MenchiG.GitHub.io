@@ -3,5 +3,11 @@
     "git.enableSmartCommit": true,
     "editor.tabSize": 1,
     "editor.detectIndentation": false,
-    "html.format.enable": false
-}
+    "html.format.enable": false,
+    "cSpell.language": "en-GB,en,en-US",
+    "cSpell.words": [
+     "endhighlight",
+     "fullchain",
+     "privkey"
+    ]
+   }

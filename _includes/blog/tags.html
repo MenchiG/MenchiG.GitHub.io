@@ -45,7 +45,7 @@
       {%- endif -%}
       <li><button type="button" class="js-article-tag tag-{{ c_index }} round-rect-button"
         data-tag="{{ tag[0] | strip | url_encode }}" onclick="tagSelect('{{ tag[0] | strip | url_encode }}')">
-          <span>{{ tag[0] | strip }}</span><div class="tag-count">{{ tag[1].size }}</div>
+          <span>&nbsp; {{ tag[0] | strip }}</span><div class="tag-count">{{ tag[1].size }}&nbsp; </div>
         </button>
       </li>
     {%- endfor -%}

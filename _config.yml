@@ -19,10 +19,10 @@ description: This is Henry's Blog, a Programmer, a Data Visualiser, a Photograph
 
 nav_lists:
   - titles:
-      en: About
-      zh: 关于
-      zh-Hans: 关于
-    url: /about.html
+      en: Résumé
+      zh: 简历
+      zh-Hans: 简历
+    url: /resume.html
 
 
 ## Language & timezone ##
@@ -32,7 +32,7 @@ timezone: Europe/London
 ## Author & social ##
 author:
   name: Henry
-  email:  henry "at" wangqiru.com
+  email:  henry@wangqiru.com
   # facebook:  #your Facebook username
   # twitter:  #your Twitter username
   github:  wangqiru

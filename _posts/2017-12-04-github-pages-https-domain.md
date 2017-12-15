@@ -11,7 +11,7 @@ title: Enable HTTPS for GitHub Pages with custom domain
 <!--more-->
 
 ## Nginx reverse proxy server
-Instead of using CNAME as suggested by [GitHub Help](https://help.github.com/articles/using-a-custom-domain-with-github-pages/){:target="_blank"}, I setup an Nginx reverse proxy to serve all the contents from GitHub repo.
+Instead of using CNAME as suggested by [GitHub Help](https://help.github.com/articles/using-a-custom-domain-with-github-pages/){:target="_blank"}, I setup an Nginx reverse proxy to serve all the contents from GitHub repository.
 
 
 {% highlight Nginx %}

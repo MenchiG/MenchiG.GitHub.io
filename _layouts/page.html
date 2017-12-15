@@ -1,13 +1,127 @@
 ---
 layout: blog-default
 ---
-<div class="m-page">
-  <article class="main">
-    {%- include snippets/page-title.html -%}
-    <h1>{{ __return }}</h1>
-    <div class="m-article-content" itemprop="articleBody">{{ content }}</div>
-    {%- if page.comment != false -%}
-      <section>{%- include utils/comment-disqus.html -%}</section>
-    {%- endif -%}
-  </article>
+<div class="m-post">
+ 	<div class="main js-main">
+    <div class="col-1">
+     <article>
+       {%- include snippets/page-title.html -%}
+       <h1>{{ __return }}</h1>
+       <div class="m-article-content js-article-content" itemprop="articleBody">{{ content }}</div>       
+       {%- if page.comment != false -%}
+         <section>{%- include utils/comment-disqus.html -%}</section>
+       {%- endif -%}
+     </article>
+    </div>
+   <div class="col-2">
+			<aside class="js-article-aside"><div class="m-toc js-toc"></div></aside>
+		</div>
+ </div>
 </div>
+{%- assign __path = '/assets/js/toc.min.js' -%} {% include snippets/prepend-baseurl.html %}
+<script src="{{ __return }}"></script>
+<script type="text/javascript">
+	window.throttle = function(func, wait) {
+	  var args, result, thisArg, timeoutId, lastCalled = 0;
+
+	  function trailingCall() {
+	    lastCalled = new Date;
+	    timeoutId = null;
+	    result = func.apply(thisArg, args);
+	  }
+	  return function() {
+	    var now = new Date,
+	      remaining = wait - (now - lastCalled);
+
+	    args = arguments;
+	    thisArg = this;
+
+	    if (remaining <= 0) {
+	      clearTimeout(timeoutId);
+	      timeoutId = null;
+	      lastCalled = now;
+	      result = func.apply(thisArg, args);
+	    } else if (!timeoutId) {
+	      timeoutId = setTimeout(trailingCall, remaining);
+	    }
+	    return result;
+	  };
+	}
+	$(function() {
+	  var $window = $(window);
+	  var $pageStage = $('.js-page-stage');
+	  var $pageMain = $('.js-main');
+	  var $pageFooter = $('.js-page-footer');
+	  var $articleContent = $('.js-article-content');
+	  var $articleAside = $('.js-article-aside');
+	  var $toc = $('.js-toc');
+	  var hasTitle = $articleContent.find('h1, h2, h3').length > 0;
+
+	  function asideSticky() {
+	    return $window.outerWidth() > 1150 && $pageStage.hasClass('has-toc');
+	  }
+
+	  function setTocClass() {
+	    if (hasTitle) {
+	      !$pageStage.hasClass('has-toc') && $pageStage.addClass('has-toc');
+	    }
+	  }
+
+	  setTocClass();
+
+	  function setAsideTOC() {
+	    var asideTop, asideLeft, scrollBottom, asideBottomTop, lastScrollTop;
+
+	    function init() {
+	      var asideOffset = $articleAside.offset();
+	      var footerOffset = $pageFooter.offset();
+	      var mainOffset = $pageMain.offset();
+	      asideTop = mainOffset.top;
+	      asideHeight = $toc.outerHeight() + parseInt($articleAside.css('padding-top'), 10) + parseInt($articleAside.css('padding-bottom'), 10);
+	      asideLeft = mainOffset.left + $pageMain.outerWidth() - $articleAside.outerWidth() - parseInt($pageMain.css('padding-right'), 10);
+	      scrollBottom = footerOffset.top - asideHeight;
+	      asideBottomTop = scrollBottom - mainOffset.top;
+	    }
+
+	    function setAside(force) {
+	      force !== true && (force = false);
+	      var scrollTop = $window.scrollTop();
+	      if (scrollTop >= asideTop && scrollTop <= scrollBottom) {
+	        (!force && lastScrollTop >= asideTop && lastScrollTop <= scrollBottom) ||
+	        $articleAside.addClass('fixed').css({
+	          left: asideLeft + 'px',
+	          top: 0
+	        });
+	      } else if (scrollTop < asideTop) {
+	        (!force && lastScrollTop < asideTop) ||
+	        $articleAside.removeClass('fixed').css({
+	          left: 0,
+	          top: 0
+	        });
+	      } else {
+	        (!force && lastScrollTop > scrollBottom) ||
+	        $articleAside.removeClass('fixed').css({
+	          left: 0,
+	          top: asideBottomTop + 'px'
+	        });
+	      }
+	      lastScrollTop = scrollTop;
+	    }
+	    asideSticky() && (init(), setAside());
+	    $window.on('scroll', function() {
+	      asideSticky() && setAside();
+	    });
+	    $window.on('resize', throttle(function() {
+	      setTocClass();
+	      asideSticky() && (init(), setAside(true));
+	    }, 100));
+	    setTimeout(init, 4000);
+	  }
+	  setTimeout(setAsideTOC, 1000);
+
+	  $toc.toc({
+	    'selectors': 'h1,h2',
+	    'container': '.js-article-content',
+	  });
+	});
+</script>

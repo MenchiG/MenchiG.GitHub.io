@@ -3,10 +3,10 @@ layout: post
 key: 20171121
 modify_date: 2017-12-04
 tags: [C#, MVC, chart.js]
-title: MVC convert HTML to PDF
+title: MVC convert HTML with Chart.js to PDF using WkHtmlToXSharp
 ---
 
-Using [WkHtmlToXSharp](https://github.com/pruiz/WkHtmlToXSharp){:target="_blank"} to convert HTML into PDF, plus a simple download function using **System.IO.MemoryStream**
+Using [WkHtmlToXSharp](https://github.com/pruiz/WkHtmlToXSharp){:target="_blank"} to convert HTML files, that contain charts rendered by [Chart.js](http://www.chartjs.org/){:target="_blank"}, into PDF. Plus a simple download function using **System.IO.MemoryStream**
 
 <!--more-->
 
@@ -14,9 +14,9 @@ Note:
 
 1. the resource files (js, css etc.) must come with absolute paths. 
 
-2. Animations if any, will also have to be disabled since there is no delay in redendering available in WkHtmlToXSharp.
+2. Animations if any, will also have to be disabled since there is no delay in redenering available in WkHtmlToXSharp.
 
-3. In my case the PDF contains charts generated using [Chart.js](http://www.chartjs.org/){:target="_blank"}, **animation**, **responsiveAnimationDuration** and **responsive** must be set to false.
+3. For charts generated using Chart.js, **animation**, **responsiveAnimationDuration** and **responsive** must be set to false.
 
 {% highlight JavaScript %}
 options: {
