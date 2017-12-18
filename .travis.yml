@@ -4,6 +4,11 @@ rvm:
 branches:
   only:
   - custom
+notifications:
+  email:
+    recipients:
+      - henry@wangqiru.com
+    on_success: never
 script: bundle exec jekyll build --config ./_config.yml
 deploy:
   provider: pages
