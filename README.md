@@ -4,4 +4,6 @@
 
 bundle exec jekyll serve -H 0.0.0.0
 
+set HTTP_PROXY=http://192.168.10.15:8080
+
 ```
