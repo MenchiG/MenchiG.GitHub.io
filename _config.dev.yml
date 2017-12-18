@@ -11,104 +11,100 @@
 #    |  |  \   --. /  .'.  \  |  |
 #    `--'   `----''--'   '--' `--'
 
-# config file for development, DELETE IT IF YOU WANT.
-
 ## Base settings ##
 # url:  #the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl: /
-title: Someone's blog
-description: > #this means to ignore newlines until "nav_lists:"
-  Someone's Blog
+title: Henry's Blog
+description: This is Henry's Blog, a Programmer, a Data Visualiser, a Photographer and an Entrepreneur.
 
 nav_lists:
   - titles:
-      en: About
-      zh: 关于
-      zh-Hans: 关于
-      zh-Hant: 關於
-    url: /about.html
+      en: Résumé
+      zh: 简历
+      zh-Hans: 简历
+    url: /resume.html
 
-paths:
-  base: /
-  home: /
-  all:  /all.html
-  rss:  /feed.xml
-
-## GitHub repository (if the site is hosted by GitHub) ##
-repository: someone/someone.github.io
-repository_tree: master
 
 ## Language & timezone ##
 lang: en #the language of your site, eg: en(English), zh(简体中文), zh-Hans(简体中文), zh-Hant(繁體中文)
-timezone: Asia/Shanghai #see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
+timezone: Europe/London
 
 ## Author & social ##
 author:
-  name: Someone
-  email: someone@somemail.com  #your Email address e.g. someone@site.com
-  facebook: someone  #your Facebook username
-  twitter: someone  #your Twitter username
-  github: someone  #your GitHub username
-  googleplus:   #your Google+ username
-  weibo:   #your Weibo username
-  douban:   #your Douban username
-  linkedin:   #your Linkedin username
+  name: Henry
+  email:  henry@wangqiru.com
+  # facebook:  #your Facebook username
+  # twitter:  #your Twitter username
+  github:  wangqiru
+  # googleplus:  #your Google+ username
+  # weibo:  #your Weibo username
+  # douban:  #your Douban username
+  linkedin:  wangqiru
 
 ## Comment system (Disqus) ##
 disqus:
   # shortname:  #the Disqus shortname for the site
 
 ## Google Analytics ##
-# ga_tracking_id:  #Google analytics id for the site
+ga_tracking_id:  UA-77456302-3
 
 ## Reading quantity (LeanCloud) ##
 leancloud:
-  # app_id:  #LeanCloud App id
-  # app_key:  #LeanCloud App key
-  # app_class:  #LeanCloud App class
+  app_id:  QD8MBjeWxoProN3D46TOsBWT-gzGzoHsz
+  app_key:  6rYosWYItQajTIaRKGRHDPQv
+  app_class:  counter
+
+gitalk:
+  clientID: 583d71112097971f54a3
+  clientSecret: e288a7631c207c6a83b16c81c0f14658c6304a3c
+  repository: wangqiru.github.io
+  owner: WangQiru
+  admin: WangQiru
+
+  # please refer to https://github.com/gitalk/gitalk for more info.
 
 # mathjax: true
 
 ## Paginate ##
 paginate: 5
-paginate_path: /blog/page:num
+paginate_path: /page:num
 
 ## Post excerpts ##
 excerpt_separator: <!--more-->
 excerpt_type: html # text | html
 
 ## Build ##
-markdown: kramdown
-highlighter: rouge
 permalink: date
+markdown: kramdown 
+github: [metadata]
+highlighter: rouge
+
 
 exclude:
-  - CHANGELOG.md
-  - CHECKLIST.md
   - Gemfile
   - Gemfile.lock
-  - LICENSE
   - README-*.md
   - README.md
-  - gulpfile.js
   - jekyll-text-theme.gemspec
   - package-lock.json
   - package.json
-  - /docs
+  - gulpfile.js
+  - npm-debug.log.*
   - /node_modules
-  - /screenshots
-  # - /test
   - /vendor
+  - _config.dev.yml
+  - .travis.yml
 
 ## Plugins ##
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-paginate
   - jemoji
 
 ## Server ##
-server_url: "0.0.0.0"
+url: https://wangqiru.com
+enforce_ssl: wangqiru.com
 
 ## Development ##
 isdebug: false
