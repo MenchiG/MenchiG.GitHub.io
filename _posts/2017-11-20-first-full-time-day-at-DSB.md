@@ -15,3 +15,9 @@ I really appreciate the internship in which I learned numerous new things like c
 ![New setup today!](/assets/images/2017-11-20/Setup.jpg){: .center-image} 
 
 It would be nice to have an extra monitor to make it triple.
+
+
+
+![Lego 70911](/assets/images/2017-11-20/Lego_70911.jpg)|![Lego 70911](/assets/images/2017-11-20/Lego_70911_2.jpg)
+
+The Penguin has joined the battle.
