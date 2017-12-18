@@ -97,7 +97,6 @@
   ol {
     margin: $content-gap 0 $content-gap $spacing-unit;
     li {
-      margin: 0;
       p {
         margin: 0;
       }
@@ -128,12 +127,7 @@
     border-collapse: collapse;
     th,
     td {
-      border: 1px solid $border-color;
       padding: $base-font-size * .5;
-    }
-    thead,
-    tbody {
-      border: 1px solid $border-color;
     }
     tbody>tr:nth-child(even) {
       background-color: $text-background-color;
