@@ -1,7 +1,7 @@
 ---
 layout: post
 key: 20171120
-modify_date: 2017-12-07
+modify_date: 2017-12-17
 title: First "full-time" day @ DSB
 picture_frame: shadow
 ---
