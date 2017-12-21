@@ -105,13 +105,6 @@ id|title|body|link
 ##### agent 参数 [^1]
 - 在 `template` 中填入任意想要的 `title` 和 `description` 作为 RSS 源的标题和描述。**在 `item` 中， `title` 和 `description` 则是作为单独一条内容的标题和正文， `link` 则是该内容的链接**。在前两步已经分别将对应的内容存储在了变量中。
 
-##### 输出事件
-Huginn 会输出两个 RSS 源地址，分别为 XML 和 JSON 格式。
-
-[https://bot.wangqiru.com/users/1/web_requests/92/知乎日报.xml](https://bot.wangqiru.com/users/1/web_requests/92/%E7%9F%A5%E4%B9%8E%E6%97%A5%E6%8A%A5.xml)
-
-[https://bot.wangqiru.com/users/1/web_requests/92/知乎日报.json](https://bot.wangqiru.com/users/1/web_requests/92/%E7%9F%A5%E4%B9%8E%E6%97%A5%E6%8A%A5.json)
-
 ### 所有 agent 的串联及更新频率
 
 在 agent 选项中，有一项为 `Sources` ，将第二个 agent 的 `sources` 指定为第一个，第三个 agent 的 `sources` 指定为第二个，如下图所示：
