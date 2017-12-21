@@ -103,8 +103,8 @@ plugins:
   - jemoji
 
 ## Server ##
-url: https://wangqiru.com
-enforce_ssl: wangqiru.com
+url: https://www.wangqiru.com
+enforce_ssl: www.wangqiru.com
 
 ## Development ##
 isdebug: false
