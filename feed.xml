@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.7.0">Jekyll</generator><link href="https://tianqi.name/jekyll-TeXt-theme/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tianqi.name/jekyll-TeXt-theme/" rel="alternate" type="text/html" hreflang="en" /><updated>2018-01-14T20:13:59+08:00</updated><id>https://tianqi.name/jekyll-TeXt-theme/</id><title type="html">TeXt Theme</title><subtitle>TeXt Theme Demo
+</subtitle><author><name>Someone</name><email>someone@somemail.com</email></author><entry xml:lang="en"><title type="html">Languages - English</title><link href="https://tianqi.name/jekyll-TeXt-theme/test/2017/10/12/english.html" rel="alternate" type="text/html" title="Languages - English" /><published>2017-10-12T00:00:00+08:00</published><updated>2017-10-12T00:00:00+08:00</updated><id>https://tianqi.name/jekyll-TeXt-theme/test/2017/10/12/english</id><content type="html" xml:base="https://tianqi.name/jekyll-TeXt-theme/test/2017/10/12/english.html">&lt;blockquote&gt;
+  &lt;p&gt;From Wikipedia, the free encyclopedia&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Markdown&lt;/strong&gt; is a lightweight markup language with plain text formatting syntax. It is designed so that it can be converted to HTML and many other formats using a tool by the same name. Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor. As the initial description of Markdown contained ambiguities and unanswered questions, many implementations and extensions of Markdown appeared over the years to answer these issues.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;history&quot;&gt;History&lt;/h2&gt;
+
+&lt;p&gt;John Gruber created the Markdown language in 2004 in collaboration with Aaron Swartz on the syntax, with the goal of enabling people “to write using an easy-to-read, easy-to-write plain text format, and optionally convert it to structurally valid XHTML (or HTML)”.&lt;/p&gt;
+
+&lt;p&gt;The key design goal is readability – that the language be readable as-is, without looking like it has been marked up with tags or formatting instructions, unlike text formatted with a markup language, such as Rich Text Format (RTF) or HTML, which have obvious tags and formatting instructions. To this end, its main inspiration is the existing conventions for marking up plain text in email, though it also draws from earlier markup languages, notably setext, Textile, and reStructuredText.&lt;/p&gt;
+
+&lt;p&gt;Gruber wrote a Perl script, Markdown.pl, which converts marked-up text input to valid, well-formed XHTML or HTML and replaces left-pointing angle brackets ‘&amp;lt;’ and ampersands ‘&amp;amp;’ with their corresponding character entity references. It can be used as a standalone script, as a plugin for Blosxom or Movable Type, or as a text filter for BBEdit.&lt;/p&gt;
+
+&lt;p&gt;Markdown has since been re-implemented by others as a Perl module available on CPAN (Text::Markdown), and in a variety of other programming languages. It is distributed under a BSD-style license and is included with, or available as a plugin for, several content-management systems.&lt;/p&gt;
+
+&lt;p&gt;Sites such as GitHub, Bitbucket, Reddit, Diaspora, Stack Exchange, OpenStreetMap, and SourceForge use variants of Markdown to facilitate discussion between users.&lt;/p&gt;
+
+&lt;h3 id=&quot;standardization&quot;&gt;Standardization&lt;/h3&gt;
+
+&lt;p&gt;There is no clearly defined Markdown standard, apart from the original writeup and implementation by John Gruber, which some consider abandonware. This has led to fragmentation as different vendors write their own variants of the language to correct flaws or add missing features.&lt;/p&gt;
+
+&lt;p&gt;A number of other lightweight markup languages extend Markdown by adding features (such as tables, footnotes, definition lists, and Markdown inside HTML blocks) not available in the original Markdown syntax. Among these are Markdown Extra, MultiMarkdown, and the Pandoc Markdown extension.&lt;/p&gt;
+
+&lt;p&gt;The original Markdown implementation interprets constructs like my_long_variable as a request to emphasize “long”. Many users found this confusing, so many later implementations such as PHP Markdown and Python Markdown do not implement middle word emphasis with underscores.&lt;/p&gt;
+
+&lt;p&gt;Babelmark2 is a tool available to “[compare] the output of various implementations” to “promote discussion of how and whether certain vague aspects of the markdown spec should be clarified.” Gruber has argued that complete standardisation would be mistaken: “Different sites (and people) have different needs. No one syntax would make all happy.”&lt;/p&gt;
+
+&lt;p&gt;In March 2016 RFC 7763 and RFC 7764 were published. RFC 7763 introduced MIME type text/markdown with the original variant. RFC 7764 discusses and registered the variants MultiMarkdown, GitHub Flavored Markdown (GFM), Pandoc, CommonMark, and Markdown Extra among others.&lt;/p&gt;
+
+&lt;h3 id=&quot;commonmark&quot;&gt;CommonMark&lt;/h3&gt;
+
+&lt;p&gt;From 2012, a group of people including Jeff Atwood launched what Atwood characterized as a standardization effort. A community website now aims to “document various tools and resources available to document authors and developers, as well as implementors of the various markdown implementations”. In September 2014, Gruber objected to the usage of “Markdown” in the name of this effort and it was rebranded as a new dialect named CommonMark. CommonMark.org published several versions of a specification, reference implementation, and test suite, and “[plans] to announce a finalized 1.0 spec and test suite in 2017.”&lt;/p&gt;
+
+&lt;h3 id=&quot;gfm&quot;&gt;GFM&lt;/h3&gt;
+
+&lt;p&gt;In 2017, GitHub released a formal specification of their GitHub Flavored Markdown (GFM) that is based on CommonMark. It follows the CommonMark specification exactly except for tables, strikethrough, autolinks and task lists, which the GitHub spec has added as extensions. GitHub also changed the parser used on their sites accordingly, which required some documents to be changed, e.g. a space after the hash signs of a heading is now required.&lt;/p&gt;
+
+&lt;h3 id=&quot;markdown-extra&quot;&gt;Markdown Extra&lt;/h3&gt;
+
+&lt;p&gt;Markdown Extra is a lightweight markup language based on Markdown implemented in PHP (originally), Python and Ruby. It adds features not available with plain Markdown syntax. Markdown Extra is supported in content management systems, for example Drupal,TYPO3 and MediaWiki.&lt;/p&gt;
+
+&lt;p&gt;It adds the following features to Markdown:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Markdown inside HTML blocks&lt;/li&gt;
+  &lt;li&gt;Elements with id/class attribute&lt;/li&gt;
+  &lt;li&gt;Fenced code blocks&lt;/li&gt;
+  &lt;li&gt;Tables&lt;/li&gt;
+  &lt;li&gt;Definition lists&lt;/li&gt;
+  &lt;li&gt;Footnotes&lt;/li&gt;
+  &lt;li&gt;Abbreviations&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;implementations&quot;&gt;Implementations&lt;/h2&gt;
+
+&lt;p&gt;Implementations of Markdown are available for over a dozen programming languages; in addition, many platforms and frameworks support Markdown. For example, Markdown plugins exist for every major blogging platform.&lt;/p&gt;
+
+&lt;p&gt;While Markdown is a minimal markup language and is read and edited with a normal text editor, there are specially designed editors that preview the files with styles, which are available for all major platforms. Many general purpose text and code editors have syntax highlighting plugins for Markdown built into them or available as optional download. Editors may feature a side-by-side preview window or render the code directly in a WYSIWYG fashion.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The sourcecode documentation generator Doxygen supports Markdown with extra features.&lt;/li&gt;
+  &lt;li&gt;RStudio, an IDE for R provides a C++ wrapper function for a markdown variant called sundown.&lt;/li&gt;
+  &lt;li&gt;GitHub Flavored Markdown (GFM) ignores underscores in words, and adds syntax highlighting, task lists, and tables.&lt;/li&gt;
+  &lt;li&gt;Discount - a C implementation.&lt;/li&gt;
+  &lt;li&gt;MarkAPL is a converter written in Dyalog APL. It supports fenced blocks, smart typography, link references, and special attributes, and can generate a table of contents.&lt;/li&gt;
+  &lt;li&gt;PHP Markdown - a library package that includes the PHP Markdown parser and its sibling PHP Markdown Extra with additional features.&lt;/li&gt;
+  &lt;li&gt;Markdig - A .NET library which follows the CommonMark specifications, and has a collection of extensions with the ability for the user to create their own.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Someone</name><email>someone@somemail.com</email></author><category term="English" /><summary type="html">From Wikipedia, the free encyclopedia Markdown is a lightweight markup language with plain text formatting syntax. It is designed so that it can be converted to HTML and many other formats using a tool by the same name. Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor. As the initial description of Markdown contained ambiguities and unanswered questions, many implementations and extensions of Markdown appeared over the years to answer these issues.</summary></entry><entry xml:lang="zh-Hans"><title type="html">Languages - Simplified Chinese | 简体中文</title><link href="https://tianqi.name/jekyll-TeXt-theme/test/2017/10/11/simplified-chinese.html" rel="alternate" type="text/html" title="Languages - Simplified Chinese | 简体中文" /><published>2017-10-11T00:00:00+08:00</published><updated>2017-10-11T00:00:00+08:00</updated><id>https://tianqi.name/jekyll-TeXt-theme/test/2017/10/11/simplified-chinese</id><content type="html" xml:base="https://tianqi.name/jekyll-TeXt-theme/test/2017/10/11/simplified-chinese.html">&lt;h2 id=&quot;标题标题标题标题标题标题标题&quot;&gt;标题标题标题标题标题标题标题&lt;/h2&gt;
+
+&lt;p&gt;中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例。&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例。&lt;/p&gt;
+
+&lt;h2 id=&quot;标题标题标题标题标题标题标题-1&quot;&gt;标题标题标题标题标题标题标题&lt;/h2&gt;
+
+&lt;p&gt;中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例。&lt;/p&gt;
+
+&lt;h3 id=&quot;小标题小标题小标题小标题&quot;&gt;小标题小标题小标题小标题&lt;/h3&gt;
+
+&lt;p&gt;中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例。&lt;/p&gt;
+
+&lt;h3 id=&quot;小标题小标题小标题小标题小标题小标题小标题小标题小标题小标题小标题小标题小标题小标题&quot;&gt;小标题小标题小标题小标题小标题小标题小标题小标题小标题小标题小标题小标题小标题小标题&lt;/h3&gt;
+
+&lt;p&gt;中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例&lt;/p&gt;
+
+&lt;h3 id=&quot;小标题小标题小标题小标题-1&quot;&gt;小标题小标题小标题小标题&lt;/h3&gt;
+
+&lt;p&gt;中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例。&lt;/p&gt;
+
+&lt;h2 id=&quot;标题标题标题标题标题标题标题-2&quot;&gt;标题标题标题标题标题标题标题&lt;/h2&gt;
+
+&lt;p&gt;中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例。&lt;/p&gt;</content><author><name>Someone</name><email>someone@somemail.com</email></author><category term="Simplified Chinese | 简" /><summary type="html">标题标题标题标题标题标题标题 中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例中文示例。</summary></entry><entry xml:lang="zh-Hant"><title type="html">Languages - Traditional Chinese | 繁體中文</title><link href="https://tianqi.name/jekyll-TeXt-theme/test/2017/10/10/traditional-chinese.html" rel="alternate" type="text/html" title="Languages - Traditional Chinese | 繁體中文" /><published>2017-10-10T00:00:00+08:00</published><updated>2017-10-10T00:00:00+08:00</updated><id>https://tianqi.name/jekyll-TeXt-theme/test/2017/10/10/traditional-chinese</id><content type="html" xml:base="https://tianqi.name/jekyll-TeXt-theme/test/2017/10/10/traditional-chinese.html">&lt;h2 id=&quot;標題標題標題標題標題標題標題&quot;&gt;標題標題標題標題標題標題標題&lt;/h2&gt;
+
+&lt;p&gt;繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文。&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文。&lt;/p&gt;
+
+&lt;h2 id=&quot;標題標題標題標題標題標題標題-1&quot;&gt;標題標題標題標題標題標題標題&lt;/h2&gt;
+
+&lt;p&gt;繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文。&lt;/p&gt;
+
+&lt;h3 id=&quot;小標題小標題小標題小標題&quot;&gt;小標題小標題小標題小標題&lt;/h3&gt;
+
+&lt;p&gt;繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文。&lt;/p&gt;
+
+&lt;h3 id=&quot;小標題小標題小標題小標題小標題小標題小標題小標題小標題小標題小標題小標題小標題小標題&quot;&gt;小標題小標題小標題小標題小標題小標題小標題小標題小標題小標題小標題小標題小標題小標題&lt;/h3&gt;
+
+&lt;p&gt;繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文&lt;/p&gt;
+
+&lt;h3 id=&quot;小標題小標題小標題小標題-1&quot;&gt;小標題小標題小標題小標題&lt;/h3&gt;
+
+&lt;p&gt;繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文。&lt;/p&gt;
+
+&lt;h2 id=&quot;標題標題標題標題標題標題標題-2&quot;&gt;標題標題標題標題標題標題標題&lt;/h2&gt;
+
+&lt;p&gt;繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文。&lt;/p&gt;</content><author><name>Someone</name><email>someone@somemail.com</email></author><category term="Traditional Chinese | 繁" /><summary type="html">標題標題標題標題標題標題標題 繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文。</summary></entry><entry><title type="html">Article With Modify Date</title><link href="https://tianqi.name/jekyll-TeXt-theme/test/2017/03/03/article-with-modify-date.html" rel="alternate" type="text/html" title="Article With Modify Date" /><published>2017-03-03T00:00:00+08:00</published><updated>2017-03-03T00:00:00+08:00</updated><id>https://tianqi.name/jekyll-TeXt-theme/test/2017/03/03/article-with-modify-date</id><content type="html" xml:base="https://tianqi.name/jekyll-TeXt-theme/test/2017/03/03/article-with-modify-date.html">&lt;p&gt;Article With Modify Date.&lt;/p&gt;</content><author><name>Someone</name><email>someone@somemail.com</email></author><category term="test" /><category term="English" /><summary type="html">Article With Modify Date.</summary></entry><entry><title type="html">Integer suscipit, purus in iaculis, nunc massa facilisis nisi. Integer suscipit, purus in iaculis, nunc massa facilisis nisi. Integer suscipit, purus in egestas iaculis, nunc massa facilisis nisi. Integer suscipit, purus in egestas iaculis, nunc massa facilisis nisi.</title><link href="https://tianqi.name/jekyll-TeXt-theme/test/2017/02/02/very-long-title.html" rel="alternate" type="text/html" title="Integer suscipit, purus in iaculis, nunc massa facilisis nisi. Integer suscipit, purus in iaculis, nunc massa facilisis nisi. Integer suscipit, purus in egestas iaculis, nunc massa facilisis nisi. Integer suscipit, purus in egestas iaculis, nunc massa facilisis nisi." /><published>2017-02-02T00:00:00+08:00</published><updated>2017-02-02T00:00:00+08:00</updated><id>https://tianqi.name/jekyll-TeXt-theme/test/2017/02/02/very-long-title</id><content type="html" xml:base="https://tianqi.name/jekyll-TeXt-theme/test/2017/02/02/very-long-title.html">&lt;p&gt;Article With Very Long Title.&lt;/p&gt;</content><author><name>Someone</name><email>someone@somemail.com</email></author><category term="boundary" /><category term="English" /><summary type="html">Article With Very Long Title.</summary></entry><entry><title type="html">Article With Lots Tags</title><link href="https://tianqi.name/jekyll-TeXt-theme/test/2017/01/03/article-with-lots-tags.html" rel="alternate" type="text/html" title="Article With Lots Tags" /><published>2017-01-03T00:00:00+08:00</published><updated>2017-01-03T00:00:00+08:00</updated><id>https://tianqi.name/jekyll-TeXt-theme/test/2017/01/03/article-with-lots-tags</id><content type="html" xml:base="https://tianqi.name/jekyll-TeXt-theme/test/2017/01/03/article-with-lots-tags.html">&lt;p&gt;Article With Lots Tags.&lt;/p&gt;</content><author><name>Someone</name><email>someone@somemail.com</email></author><category term="boundary" /><category term="test" /><category term="test0" /><category term="test a" /><category term="test b" /><category term="test c" /><category term="~`!@" /><category term="#$%^" /><category term="&amp;*()" /><category term="-=_+" /><category term="[]{}" /><category term="\|;:" /><category term=",.&lt;&gt;" /><category term="?/'&quot;" /><category term="天天天天" /><category term="English" /><summary type="html">Article With Lots Tags.</summary></entry><entry><title type="html">Article With Long TOC</title><link href="https://tianqi.name/jekyll-TeXt-theme/test/2017/01/01/article-with-long-toc.html" rel="alternate" type="text/html" title="Article With Long TOC" /><published>2017-01-01T00:00:00+08:00</published><updated>2017-01-01T00:00:00+08:00</updated><id>https://tianqi.name/jekyll-TeXt-theme/test/2017/01/01/article-with-long-toc</id><content type="html" xml:base="https://tianqi.name/jekyll-TeXt-theme/test/2017/01/01/article-with-long-toc.html">&lt;p&gt;Article with long TOC.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Vestibulum posuere, quam sed bibendum posuere, orci est semper libero, nec congue tortor arcu eget velit. Mauris condimentum pulvinar condimentum. Sed suscipit elit tellus. Nunc vel fringilla massa. Aliquam sed velit lorem.&lt;/p&gt;
+
+&lt;h2 id=&quot;integer-suscipit-purus-in-egestas-iaculis-nunc-massa-facilisis-nisi&quot;&gt;Integer suscipit, purus in egestas iaculis, nunc massa facilisis nisi.&lt;/h2&gt;
+
+&lt;p&gt;Sed feugiat faucibus leo, ut iaculis eros ullamcorper vitae. Nulla bibendum, risus id imperdiet lobortis, dui eros varius justo, non lobortis leo orci sed nisi. Pellentesque et metus sem, ut ultrices dui. Phasellus neque nisi, commodo tempor dictum et, mattis ut magna. Donec est metus, sagittis pretium egestas eget, accumsan id ante.&lt;/p&gt;
+
+&lt;h3 id=&quot;integer-suscipit-purus-in-egestas-iaculis-nunc-massa-facilisis-nisi-1&quot;&gt;Integer suscipit, purus in egestas iaculis, nunc massa facilisis nisi.&lt;/h3&gt;
+
+&lt;p&gt;Vestibulum posuere, quam sed bibendum posuere.&lt;/p&gt;
+
+&lt;h3 id=&quot;integer-suscipit&quot;&gt;Integer suscipit&lt;/h3&gt;
+
+&lt;p&gt;Pellentesque habitant morbi tristique senectus.&lt;/p&gt;
+
+&lt;h4 id=&quot;integer-suscipit-hide&quot;&gt;Integer suscipit (hide)&lt;/h4&gt;
+
+&lt;p&gt;Pellentesque nulla augue, volutpat vitae.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h3 id=&quot;integer-suscipit-purus-in-egestas-iaculis-nunc-massa-facilisis-nisi-2&quot;&gt;Integer suscipit, purus in egestas iaculis, nunc massa facilisis nisi.&lt;/h3&gt;
+
+&lt;p&gt;Vestibulum vestibulum eros quis dui condimentum hendrerit. Ut laoreet consectetur quam, non molestie sapien imperdiet porttitor. Nullam a purus non nisi feugiat euismod. Curabitur euismod odio at neque consectetur commodo. Sed tincidunt consequat mi, vitae tincidunt ipsum eleifend eu. Donec scelerisque risus purus. Etiam vitae est felis.&lt;/p&gt;
+
+&lt;h2 id=&quot;integer-suscipit-purus-in-egestas-iaculis-nunc-massa-facilisis-nisi-3&quot;&gt;Integer suscipit, purus in egestas iaculis, nunc massa facilisis nisi.&lt;/h2&gt;
+
+&lt;p&gt;Nullam bibendum lectus sed diam fringilla cursus in id lectus. Pellentesque facilisis, eros vel dapibus porta, eros mi dignissim quam, ut volutpat est lacus quis mi. Vestibulum et massa vitae nunc elementum congue eget ut magna. Maecenas rutrum tempus dui, a dictum neque blandit ut. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.&lt;/p&gt;
+
+&lt;h3 id=&quot;integer-suscipit-1&quot;&gt;Integer suscipit&lt;/h3&gt;
+
+&lt;p&gt;Pellentesque habitant morbi tristique senectus.&lt;/p&gt;
+
+&lt;h3 id=&quot;integer-suscipit-2&quot;&gt;Integer suscipit&lt;/h3&gt;
+
+&lt;p&gt;Pellentesque nulla augue, volutpat vitae.&lt;/p&gt;
+
+&lt;h3 id=&quot;integer-suscipit-3&quot;&gt;Integer suscipit&lt;/h3&gt;
+
+&lt;p&gt;Pellentesque habitant morbi tristique senectus.&lt;/p&gt;
+
+&lt;h3 id=&quot;integer-suscipit-4&quot;&gt;Integer suscipit&lt;/h3&gt;
+
+&lt;p&gt;Pellentesque nulla augue, volutpat vitae.&lt;/p&gt;
+
+&lt;h3 id=&quot;integer-suscipit-5&quot;&gt;Integer suscipit&lt;/h3&gt;
+
+&lt;p&gt;Pellentesque habitant morbi tristique senectus.&lt;/p&gt;
+
+&lt;h3 id=&quot;integer-suscipit-6&quot;&gt;Integer suscipit&lt;/h3&gt;
+
+&lt;p&gt;Pellentesque nulla augue, volutpat vitae.&lt;/p&gt;
+
+&lt;h2 id=&quot;integer-suscipit-purus-in-egestas-iaculis-nunc-massa-facilisis-nisi-4&quot;&gt;Integer suscipit, purus in egestas iaculis, nunc massa facilisis nisi.&lt;/h2&gt;
+
+&lt;p&gt;In hac habitasse platea dictumst. Morbi non rutrum risus. Proin orci nisi, commodo eleifend elementum at, fermentum a velit.&lt;/p&gt;
+
+&lt;h3 id=&quot;integer-suscipit-7&quot;&gt;Integer suscipit&lt;/h3&gt;
+
+&lt;p&gt;Pellentesque habitant morbi tristique senectus.&lt;/p&gt;
+
+&lt;h3 id=&quot;integer-suscipit-8&quot;&gt;Integer suscipit&lt;/h3&gt;
+
+&lt;p&gt;Pellentesque nulla augue, volutpat vitae.&lt;/p&gt;
+
+&lt;h2 id=&quot;integer-suscipit-purus-in-egestas-iaculis-nunc-massa-facilisis-nisi-5&quot;&gt;Integer suscipit, purus in egestas iaculis, nunc massa facilisis nisi&lt;/h2&gt;
+
+&lt;p&gt;Nulla vulputate, nisi sed placerat consectetur, arcu augue condimentum velit, eu molestie lacus quam ut ante. Nullam leo ipsum, auctor vitae ultrices sed, facilisis a massa. Vestibulum tristique lacus a mauris ullamcorper vel viverra orci aliquam. Proin facilisis, ligula volutpat bibendum mollis, urna dui volutpat est, ut dictum turpis ipsum sed arcu. Aliquam erat volutpat. In eget rutrum massa. Etiam a magna quis dolor eleifend laoreet. Vivamus non semper orci. Phasellus imperdiet sapien posuere purus aliquet consequat consectetur urna sodales. Sed tristique placerat facilisis. Phasellus vitae rutrum arcu.&lt;/p&gt;
+
+&lt;h3 id=&quot;integer-suscipit-9&quot;&gt;Integer suscipit&lt;/h3&gt;
+
+&lt;p&gt;Pellentesque habitant morbi tristique senectus.&lt;/p&gt;
+
+&lt;h3 id=&quot;integer-suscipit-10&quot;&gt;Integer suscipit&lt;/h3&gt;
+
+&lt;p&gt;Pellentesque nulla augue, volutpat vitae.&lt;/p&gt;
+
+&lt;h2 id=&quot;integer-suscipit-purus-in-egestas-iaculis-nunc-massa-facilisis-nisi-6&quot;&gt;Integer suscipit, purus in egestas iaculis, nunc massa facilisis nisi&lt;/h2&gt;
+
+&lt;p&gt;Nulla vulputate, nisi sed placerat consectetur, arcu augue condimentum velit, eu molestie lacus quam ut ante. Nullam leo ipsum, auctor vitae ultrices sed, facilisis a massa. Vestibulum tristique lacus a mauris ullamcorper vel viverra orci aliquam. Proin facilisis, ligula volutpat bibendum mollis, urna dui volutpat est, ut dictum turpis ipsum sed arcu. Aliquam erat volutpat. In eget rutrum massa. Etiam a magna quis dolor eleifend laoreet.&lt;/p&gt;
+
+&lt;h3 id=&quot;integer-suscipit-11&quot;&gt;Integer suscipit&lt;/h3&gt;
+
+&lt;p&gt;Pellentesque habitant morbi tristique senectus.&lt;/p&gt;
+
+&lt;h3 id=&quot;integer-suscipit-12&quot;&gt;Integer suscipit&lt;/h3&gt;
+
+&lt;p&gt;Proin facilisis, ligula volutpat bibendum mollis, urna dui volutpat est, ut dictum turpis ipsum sed arcu. Aliquam erat volutpat. In eget rutrum massa. Etiam a magna quis dolor eleifend laoreet.&lt;/p&gt;
+
+&lt;h3 id=&quot;integer-suscipit-13&quot;&gt;Integer suscipit&lt;/h3&gt;
+
+&lt;p&gt;Pellentesque habitant morbi tristique senectus.&lt;/p&gt;
+
+&lt;h3 id=&quot;integer-suscipit-14&quot;&gt;Integer suscipit&lt;/h3&gt;
+
+&lt;p&gt;Pellentesque nulla augue, volutpat vitae.&lt;/p&gt;
+
+&lt;h3 id=&quot;integer-suscipit-15&quot;&gt;Integer suscipit&lt;/h3&gt;
+
+&lt;p&gt;Pellentesque habitant morbi tristique senectus.&lt;/p&gt;
+
+&lt;h3 id=&quot;integer-suscipit-16&quot;&gt;Integer suscipit&lt;/h3&gt;
+
+&lt;p&gt;Proin facilisis, ligula volutpat bibendum mollis, urna dui volutpat est, ut dictum turpis ipsum sed arcu. Aliquam erat volutpat. In eget rutrum massa. Etiam a magna quis dolor eleifend laoreet.&lt;/p&gt;
+
+&lt;h3 id=&quot;integer-suscipit-17&quot;&gt;Integer suscipit&lt;/h3&gt;
+
+&lt;p&gt;Pellentesque habitant morbi tristique senectus.&lt;/p&gt;
+
+&lt;h3 id=&quot;integer-suscipit-18&quot;&gt;Integer suscipit&lt;/h3&gt;
+
+&lt;p&gt;Pellentesque nulla augue, volutpat vitae.&lt;/p&gt;</content><author><name>Someone</name><email>someone@somemail.com</email></author><category term="test" /><category term="boundary" /><category term="English" /><summary type="html">Article with long TOC.</summary></entry><entry><title type="html">Markdown Example - Images</title><link href="https://tianqi.name/jekyll-TeXt-theme/test/2016/12/22/images.html" rel="alternate" type="text/html" title="Markdown Example - Images" /><published>2016-12-22T00:00:00+08:00</published><updated>2016-12-22T00:00:00+08:00</updated><id>https://tianqi.name/jekyll-TeXt-theme/test/2016/12/22/images</id><content type="html" xml:base="https://tianqi.name/jekyll-TeXt-theme/test/2016/12/22/images.html">&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-home.png&quot; alt=&quot;TeXt&quot; title=&quot;TeXt Theme&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;smile, smile, smile. :smile:&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;color-theme-default&quot;&gt;Color Theme: Default&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/colors_default.png&quot; alt=&quot;default&quot; title=&quot;Default Theme&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;color-theme-dark&quot;&gt;Color Theme: Dark&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/colors_dark.png&quot; alt=&quot;dark&quot; title=&quot;Dark Theme&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;color-theme-forest&quot;&gt;Color Theme: Forest&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/colors_forest.png&quot; alt=&quot;forest&quot; title=&quot;Forest Theme&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;color-theme-ocean&quot;&gt;Color Theme: Ocean&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/colors_ocean.png&quot; alt=&quot;ocean&quot; title=&quot;Ocean Theme&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;color-theme-chocolate&quot;&gt;Color Theme: Chocolate&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/colors_chocolate.png&quot; alt=&quot;chocolate&quot; title=&quot;Chocolate Theme&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;color-theme-orange&quot;&gt;Color Theme: Orange&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/colors_orange.png&quot; alt=&quot;orange&quot; title=&quot;Orange Theme&quot; /&gt;&lt;/p&gt;</content><author><name>Someone</name><email>someone@somemail.com</email></author><category term="markdown" /><category term="English" /><summary type="html">smile, smile, smile. :smile:</summary></entry><entry><title type="html">Markdown Example - Images With Shadow</title><link href="https://tianqi.name/jekyll-TeXt-theme/test/2016/12/21/images-with-shadow.html" rel="alternate" type="text/html" title="Markdown Example - Images With Shadow" /><published>2016-12-21T00:00:00+08:00</published><updated>2016-12-21T00:00:00+08:00</updated><id>https://tianqi.name/jekyll-TeXt-theme/test/2016/12/21/images-with-shadow</id><content type="html" xml:base="https://tianqi.name/jekyll-TeXt-theme/test/2016/12/21/images-with-shadow.html">&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/colors_dark.png&quot; alt=&quot;dark&quot; title=&quot;Dark Theme&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;smile, smile, smile. :smile:&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;color-theme-default&quot;&gt;Color Theme: Default&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/colors_default.png&quot; alt=&quot;default&quot; title=&quot;Default Theme&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;color-theme-dark&quot;&gt;Color Theme: Dark&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/colors_dark.png&quot; alt=&quot;dark&quot; title=&quot;Dark Theme&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;color-theme-forest&quot;&gt;Color Theme: Forest&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/colors_forest.png&quot; alt=&quot;forest&quot; title=&quot;Forest Theme&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;color-theme-ocean&quot;&gt;Color Theme: Ocean&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/colors_ocean.png&quot; alt=&quot;ocean&quot; title=&quot;Ocean Theme&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;color-theme-chocolate&quot;&gt;Color Theme: Chocolate&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/colors_chocolate.png&quot; alt=&quot;chocolate&quot; title=&quot;Chocolate Theme&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;color-theme-orange&quot;&gt;Color Theme: Orange&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/colors_orange.png&quot; alt=&quot;orange&quot; title=&quot;Orange Theme&quot; /&gt;&lt;/p&gt;</content><author><name>Someone</name><email>someone@somemail.com</email></author><category term="test" /><category term="English" /><summary type="html">smile, smile, smile. :smile:</summary></entry><entry><title type="html">Markdown Example - MathJax</title><link href="https://tianqi.name/jekyll-TeXt-theme/test/2016/12/12/mathjax.html" rel="alternate" type="text/html" title="Markdown Example - MathJax" /><published>2016-12-12T00:00:00+08:00</published><updated>2016-12-12T00:00:00+08:00</updated><id>https://tianqi.name/jekyll-TeXt-theme/test/2016/12/12/mathjax</id><content type="html" xml:base="https://tianqi.name/jekyll-TeXt-theme/test/2016/12/12/mathjax.html">&lt;p&gt;When &lt;script type=&quot;math/tex&quot;&gt;a \ne 0&lt;/script&gt;, there are two solutions to &lt;script type=&quot;math/tex&quot;&gt;ax^2 + bx + c = 0&lt;/script&gt; and they are&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;x = {-b \pm \sqrt{b^2-4ac} \over 2a}&lt;/script&gt;</content><author><name>Someone</name><email>someone@somemail.com</email></author><category term="markdown" /><category term="English" /><summary type="html">When , there are two solutions to and they are</summary></entry></feed>
