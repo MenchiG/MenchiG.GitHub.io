@@ -3,6 +3,7 @@ layout: post
 title: 第一篇博客
 key: 20180116
 tags: blog
+category: blog
 ---
 
 第一篇博客，姑且算是测试。
