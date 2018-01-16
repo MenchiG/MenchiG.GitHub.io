@@ -14,9 +14,9 @@
 ## Base settings ##
 # url:  #the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl: /
-title: Someone's blog
+title: Menchi's blog
 description: > #this means to ignore newlines until "nav_lists:"
-  Someone's Blog
+  一个笔记本
 
 nav_lists:
   - titles:
@@ -46,7 +46,7 @@ author:
   # email:  #your Email address e.g. someone@site.com
   # facebook:  #your Facebook username
   # twitter:  #your Twitter username
-  # github:  #your GitHub username
+  github:  MenchiG
   # googleplus:  #your Google+ username
   # weibo:  #your Weibo username
   # douban:  #your Douban username
