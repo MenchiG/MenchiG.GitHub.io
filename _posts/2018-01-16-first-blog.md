@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 第一篇博客
-key: 20180116
 tags: blog
 category: blog
 ---

@@ -10,6 +10,11 @@ key: page-about
 
 A fresh bloger. :+1:
 
-{% highlight javascript %}
-  (() => console.log('hello, world!'))();
+Love cooking:meat_on_bone:, bartender:cocktail: and boardgames:game_die:
+
+Studying Modern Java Development
+Spring Boot
+
+{% highlight java %}
+  System.out.println("hello, world")
 {% endhighlight %}
