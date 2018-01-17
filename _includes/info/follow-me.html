@@ -16,7 +16,7 @@
     {%- if site.author.facebook -%}
       <li title="{{ __return | replace: '[NAME]', 'Facebook' }}">
         <div class="floating-action-round-button facebook">
-          <a itemprop="sameAs" href="https://www.facebook.com/{{ site.author.facebook }}" target="_blank">
+          <a itemprop="sameAs" href="https://www.facebook.com/profile.php?id={{ site.author.facebook }}" target="_blank">
             <div class="icon">{%- include icon/social/facebook.svg -%}</div>
           </a>
         </div>
@@ -63,6 +63,15 @@
         <div class="floating-action-round-button douban">
           <a itemprop="sameAs" href="https://www.douban.com/people/{{ site.author.douban }}" target="_blank">
             <div class="icon">{%- include icon/social/douban.svg -%}</div>
+          </a>
+        </div>
+      </li>
+    {%- endif -%}
+    {%- if site.author.instagram -%}
+      <li title="{{ __return | replace: '[NAME]', 'Instagram' }}">
+        <div class="floating-action-round-button instagram">
+          <a itemprop="sameAs" href="https://www.instagram.com/{{ site.author.instagram }}" target="_blank">
+            <div class="icon">{%- include icon/social/instagram.svg -%}</div>
           </a>
         </div>
       </li>
