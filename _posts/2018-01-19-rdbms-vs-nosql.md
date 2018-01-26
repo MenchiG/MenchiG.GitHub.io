@@ -5,9 +5,11 @@ tags: database NoSQL
 category: blog
 ---
 
-
+ 
 
 ## RDBMS VS NoSQL
+
+Compare RDBMS and NoSQL<!--more-->
 
 ### RDBMS (Relational Database Manage System)
 

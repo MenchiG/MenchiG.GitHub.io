@@ -14,9 +14,9 @@
 ## Base settings ##
 url: http://menchi.xyz
 baseurl: /
-title: Menchi's Kitchen
+title: Menchi's Notebook
 description: > #this means to ignore newlines until "nav_lists:"
-  这里是Menchi的后厨，有菜有知识
+    This is Menchi's Notebook
 
 nav_lists:
   - titles: 
