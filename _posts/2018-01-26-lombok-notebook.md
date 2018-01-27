@@ -1,11 +1,9 @@
 ---
 layout: post
 title: Lombok Notebook
-tags: Java tool Note
+tags: Java tool note
 category: blog
 ---
-
-## Lombok Notebook
 
 [Lombok Features Link](https://projectlombok.org/features/all)
 

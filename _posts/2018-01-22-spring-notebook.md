@@ -1,17 +1,15 @@
 ---
 layout: post
 title: Spring Notebook
-tags: Spring Java Note
+tags: Spring Java note
 category: blog
 ---
 
-## Spring Notebook
-
 Some notes for Spring Boot and Spring Cloud<!--more-->
 
-### Annotation
+## Annotation
 
-#### JPA(Java persistent API)
+### JPA(Java persistent API)
 
 @Embeddable vs @Entity
 
@@ -27,7 +25,7 @@ In relational model
 
 Assume we have **user** and **address**, if query **address** separately is necessary, **address** should stored in another table, otherwise it can be embedded in **user**.
 
-#### Message Queue
+### Message Queue
 
 @EnableBinding(Source.class)
 
@@ -39,7 +37,7 @@ Assume we have **user** and **address**, if query **address** separately is nece
 
 ​	Message consumer
 
-#### Eureka
+### Eureka
 
 Use service name as url instead of practice address and port number
 
@@ -47,13 +45,13 @@ Use service name as url instead of practice address and port number
 
 ​	Register to Eureka
 
-#### Hystrix
+### Hystrix
 
 @EnableCircuitBreaker
 
 @HystrixCommand
 
-#### Utility
+### Utility
 
 @Slf4j
 
@@ -63,32 +61,32 @@ Use service name as url instead of practice address and port number
 
 ​	lombok for setter and getter
 
-### Parent POM
+## Parent POM
 
 modules: share dependency Management
 
-### URL
+## URL
 
 * Use service name, do not need port number
 * Inject url in yml files (@Value)  need port number
 
-### Debug
+## Debug
 
-#### 1.1 mvn clean install
+### 1.1 mvn clean install
 
 error -> compile time error -> syntax error, dependency issue
 
-#### 2.1 service1 z
+### 2.1 service1
 
-##### 2.1.1 Spring configuration issue.
+#### 2.1.1 Spring configuration issue.
 
 @Autowired Service1 service1 spring startup failed xxx bean cannot be injected
 
-##### 2.1.2 Address used
+#### 2.1.2 Address used
 
 change port number
 
-##### 2.1.3 Runtime Dependency issue 
+#### 2.1.3 Runtime Dependency issue 
 
 ClassNotFound Exception. ClassCastException, NotFoundException
 
@@ -96,19 +94,19 @@ ClassNotFound Exception. ClassCastException, NotFoundException
 
 * check document and change version number
 
-#### 3.1  service1, service2. Service1 -> Service 2 Error
+### 3.1  service1, service2. Service1 -> Service 2 Error
 
 Logging and logging
 
-##### 3.1.1 Before service 1 call service 2
+#### 3.1.1 Before service 1 call service 2
 
 do logging
 
-##### 3.1.2 Made call but got error response.
+#### 3.1.2 Made call but got error response.
 
 After service call finished, do logging . service2 network issue
 
-##### 3.1.3 ELK
+#### 3.1.3 ELK
 
 Splunk
 

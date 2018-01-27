@@ -5,11 +5,9 @@ tags: Java database
 category: blog
 ---
 
-## JPA, ORM, Hibernate and Spring Data
-
 Make clear the difference and relationship among JPA, ORM, Hibernate, Spring Data.<!--more-->
 
-### ORM (Object-relational mapping)
+## ORM (Object-relational mapping)
 
 Object-relational mapping in computer science is a programming technique for converting data between incompatible type systems using object-oriented programming languages
 
@@ -17,19 +15,19 @@ From relational model to Object.
 
 Example: Entity EJB, Hibernate, iBATIS(MyBatis), TopLink
 
-### JPA(Java persistent API)
+## JPA(Java persistent API)
 
 The Java Persistence API provides a POJO persistence model for object-relational mapping. 
 
 A general form for different ORM framework.
 
-### Hibernate
+## Hibernate
 
 Hibernate ORM is an object-relational mapping tool for the Java programming language. It provides a framework for mapping an object-oriented domain model to a relational database
 
 Hibernate implements JPA.
 
-### Spring Data
+## Spring Data
 
 Spring Data’s mission is to provide a familiar and consistent, Spring-based programming model for data access while still retaining the special traits of the underlying data store. 
 

@@ -5,15 +5,11 @@ tags: database NoSQL
 category: blog
 ---
 
- 
-
-## RDBMS VS NoSQL
-
 Compare RDBMS and NoSQL<!--more-->
 
-### RDBMS (Relational Database Manage System)
+## RDBMS (Relational Database Manage System)
 
-#### Feature
+### Feature
 
 * ACID (Atomicity, Consistency, Isolation, Durability) : guarantee that database transactions are **processed** reliably
   * Atomicity:
@@ -25,9 +21,9 @@ Compare RDBMS and NoSQL<!--more-->
   * Durability
     * Once transaction is committed, it will remain so
 
-### NoSQL
+## NoSQL
 
-#### Feature
+### Feature
 
 * Schemaless
 
