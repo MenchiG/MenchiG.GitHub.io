@@ -1,17 +1,17 @@
 ---
 layout: post
-title: Spring NoteBook
-tags: Spring Java
+title: Spring Notebook
+tags: Spring Java Note
 category: blog
 ---
 
-## Spring NoteBook
+## Spring Notebook
 
 Some notes for Spring Boot and Spring Cloud<!--more-->
 
 ### Annotation
 
-#### JPA(Java persistent API )
+#### JPA(Java persistent API)
 
 @Embeddable vs @Entity
 
@@ -22,7 +22,10 @@ In OO relationship
 In relational model
 
 * The dependent object could have its own table
+
 * Its data could be embedded in the independent object's table. The dependent data is included in the independent object's table.
+
+Assume we have **user** and **address**, if query **address** separately is necessary, **address** should stored in another table, otherwise it can be embedded in **user**.
 
 #### Message Queue
 
