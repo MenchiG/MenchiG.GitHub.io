@@ -1,11 +1,12 @@
 ---
 layout: post
-title: Spring Notebook
+title: Spring Boot Notebook
 tags: Spring Java note
 category: blog
 ---
 
 Some notes for Spring Boot and Spring Cloud<!--more-->
+
 
 ## Annotation
 
