@@ -73,8 +73,8 @@ ga_tracking_id: UA-118681910-1
 
 ## Reading quantity (LeanCloud) ##
 leancloud:
-  app_id: DKT4XEbuoBK52HSamo2FUxI2-gzGzoHsz
-  app_key: 6GmM1O4mYK5PcwNU3PQn32mD
+  app_id: W7FTkOvrqjwwaaq0PzP7JULG-MdYXbMMI
+  app_key: cjRHQMkyj8wlN3cliN7nGB7T
   app_class: notebookCounter
 
 # mathjax: true
