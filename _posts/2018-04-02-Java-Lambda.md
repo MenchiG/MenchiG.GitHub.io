@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Java8 Lambda
-key: 0008
 tags: Java note Lambda
 category: blog
 ---

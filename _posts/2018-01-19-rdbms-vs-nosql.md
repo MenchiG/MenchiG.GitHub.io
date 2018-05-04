@@ -1,7 +1,6 @@
 ---
 layout: post
 title: RDBMS VS NoSQL
-key: 0003
 tags: database NoSQL
 category: blog
 ---
