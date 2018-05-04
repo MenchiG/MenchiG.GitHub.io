@@ -1,7 +1,7 @@
 ---
 layout: post
 title: JPA, ORM, Hibernate and Spring Data
-key: 0005
+key: 10005
 tags: Java database
 category: blog
 ---

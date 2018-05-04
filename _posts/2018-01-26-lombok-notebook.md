@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Lombok Notebook
-key: 0006
+key: 10006
 tags: Java tool note
 category: blog
 ---
