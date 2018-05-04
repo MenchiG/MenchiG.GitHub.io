@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Spring Notebook
-key: 0007
+key: 10007
 tags: Spring Java note
 category: blog
 ---
