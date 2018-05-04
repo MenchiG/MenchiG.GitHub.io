@@ -4,38 +4,43 @@
 @charset "utf-8";
 
 @import
-    "colors/{{ site.text_color_theme | default: site.data.variables.default.text_color_theme }}",
-    // "colors/chocolate",
-    // "colors/dark",
-    // "colors/default",
-    // "colors/forest",
-    // "colors/ocean",
-    // "colors/orange",
+    "settings/base",
+    "settings/colors",
+    "settings/font",
+    "settings/highlighting",
 
-    "common/variables",
-    "common/highlighting",
-    "common/classes",
-    "common/reset",
-    "common/components/button",
+    "mixins/prefix",
+    "mixins/media",
+    "mixins/link",
+    "mixins/flex",
+    "mixins/shape",
 
-    "animate/fade-in",
-    "animate/fade-in-down",
+    "base/base",
+    "base/text",
+    "base/links",
+    "base/image&icon",
+    "base/animate",
 
-    "components/main",
-    "components/header",
-    "components/article.data",
-    "components/article.content",
-    "components/article.content.extra",
-    "components/pagination",
-    "components/tags",
-    "components/toc",
+    "components/wrapper",
+
     "components/follow-me",
-    "components/license",
+
+    "components/header",
     "components/footer",
 
-    "layout/default",
-    "layout/home",
-    "layout/all",
-    "layout/post",
-    "layout/error-404"
+    "components/toc",
+    "components/tags",
+    "components/pagination",
+
+    "components/article.data",
+    "components/article.content",
+    "components/license",
+
+    "blog/layout.base",
+    "blog/layout.default",
+    "blog/layout.post",
+
+    "blog/page.all",
+    "blog/page.index",
+    "blog/page.error-404"
 ;

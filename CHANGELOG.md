@@ -1,32 +1,14 @@
 # Change Log
 
-## 1.5.0 (2018-03-18)
-
-### Enhancements
-
-- `text_color_theme` config
-
-- Long pagination
-
-- Additional styles (Alert, Image)
-
-- Mathjax autoNumber config (@liao961120)
-
-- Article heading anchor
-
-- Previous and next post
-
-- Search
-
 ## 1.4.3 (2018-01-13)
 
 ### Enhancements
 
-- New TOC style
+- new TOC style
 
-- Gitalk support (@WangQiru)
+- gitalk support
 
-- Mermaid support
+- mermaid support
 
 - `site.paths` & `site.nav_lists` support absolute URL
 
@@ -34,9 +16,9 @@
 
 ### Enhancements
 
-- Use new liquid syntax `{%-` `-%}` to avoid unnecessary output whitespace
+- use new liquid syntax `{%-` `-%}` to avoid unnecessary output whitespace.
 
-- Add paths.base config
+- add paths.base config.
 
 ## 1.4.1 (2017-12-05)
 
@@ -92,11 +74,11 @@
 
 ### Enhancements
 
-- Optimize Article TOC
+- Optimize Article TOC.
 
 ### Bug Fixes
 
-- Issues 4: View count display error when the post key include `-` (@yuxianda)
+- Issues 4: View count display error when the post key include `-`. @yuxianda
 
 - Email url error
 

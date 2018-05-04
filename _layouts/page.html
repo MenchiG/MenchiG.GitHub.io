@@ -1,12 +1,12 @@
 ---
-layout: base
+layout: blog-default
 ---
 <div class="m-page">
   <article class="main">
     {%- include snippets/page-title.html -%}
-    <div class="main-header"><h1>{{ __return }}</h1></div>
+    <h1>{{ __return }}</h1>
     <div class="m-article-content" itemprop="articleBody">{{ content }}</div>
-    {%- if jekyll.environment != "development" and page.comment != false -%}
+    {%- if page.comment != false -%}
       <section>{%- include utils/comment-disqus.html -%}</section>
       <section>{%- include utils/comment-gitalk.html -%}</section>
     {%- endif -%}

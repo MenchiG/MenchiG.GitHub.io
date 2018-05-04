@@ -1,8 +1,8 @@
 .m-license {
-  @include round-rect(1rem, .5rem 1rem);
-  @include box-shadow();
+  @include round-rect($base-font-size, $base-font-size / 2 $base-font-size);
   background-color: $text-background-color;
-  font-weight: map-get($base, font-weight-bold);
+  box-shadow: $shadow-base;
+  font-weight: $bold-font-weight;
   img {
     vertical-align: bottom;
   }
@@ -12,15 +12,15 @@
   .octocat {
     float: right;
     img {
-      width: 4rem;
+      width: $spacing-unit * 2;
       height: auto;
-      margin: 0 1rem;
+      margin: 0 $spacing-unit / 3;
       border-width: 0;
-      border-radius: 2rem;
+      border-radius: $spacing-unit;
     }
   }
   .license {
     float: right;
-    margin-left: 1rem;
+    margin-left: $spacing-unit / 3;
   }
 }
