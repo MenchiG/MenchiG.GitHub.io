@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Spring Boot Notebook
+key: 0004
 tags: Spring Java note
 category: blog
 ---
