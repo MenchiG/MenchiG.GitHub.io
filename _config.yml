@@ -38,7 +38,7 @@ paths:
 
 ## Language & timezone ##
 lang: en #the language of your site, eg: en(English), zh(简体中文), zh-Hans(简体中文), zh-Hant(繁體中文)
-timezone: America/Los_Angeles #see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
+timezone: America/New_York #see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
 
 ## Author & social ##
 author:
@@ -68,13 +68,13 @@ gitalk:
     # - owner
 
 ## Google Analytics ##
-ga_tracking_id: UA-118681910-1
+ga_tracking_id: UA-118681910-1 #Google analytics id for the site
 
 ## Reading quantity (LeanCloud) ##
 leancloud:
-  app_id: DKT4XEbuoBK52HSamo2FUxI2-gzGzoHsz
-  app_key: 6GmM1O4mYK5PcwNU3PQn32mD
-  app_class: notebookCounter
+  app_id: DKT4XEbuoBK52HSamo2FUxI2-gzGzoHsz #LeanCloud App id
+  app_key: 6GmM1O4mYK5PcwNU3PQn32mD #LeanCloud App key
+  app_class: notebookCounter #LeanCloud App class
 
 # mathjax: true
 
