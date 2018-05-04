@@ -1,0 +1,27 @@
+---
+titles: Menchi
+---
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+    <head>
+        {%- include head.html -%}
+        <link rel="stylesheet" href="{{ "/assets/css/home.css" | prepend: site.baseurl | replace:'//','/' }}">
+        <script src="//cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="home" itemscope itemtype="http://schema.org/Person">
+            <div class="main">
+                <div class="content">
+                    <div class="my-photo">
+                        <img alt="my photo" src="http://ww1.sinaimg.cn/large/006zxGYugy1fnj98u8nf5j30b20b20tv.jpg" /> 
+                    </div>
+                    <h1 itemprop="name" class="title-text">{{ site.author.name }}</h1>
+                    {% include follow-me.html %}
+                    <p><a class="social-link blog" title="Visit my Notebook." itemprop="sameAs" href="/notebook" target="_self">Notebook</a></p>
+                    <p><a class="social-link blog" title="Visit my Menu." itemprop="sameAs" href="/cooking" target="_self">Kitchen</a></p>
+                </div>
+            </div>
+        </div>
+        {% include analytics.html %}
+    </body>
+</html>

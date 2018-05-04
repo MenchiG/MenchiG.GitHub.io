@@ -1,0 +1,123 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+#
+# ,--------.      ,--.   ,--. ,--.
+# '--.  .--',---.  \  `.'  /,-'  '-.
+#    |  |  | .-. :  .'    \ '-.  .-'
+#    |  |  \   --. /  .'.  \  |  |
+#    `--'   `----''--'   '--' `--'
+
+## Base settings ##
+url: http://menchi.xyz
+baseurl: /
+title: Menchi's Blog
+description: > #this means to ignore newlines until "nav_lists:"
+    This is Menchi's Blog
+
+nav_lists:
+  - titles: 
+      en: About
+      zh: 关于
+      zh-Hans: 关于
+      zh-Hant: 關於
+    url: /blog/about.html
+
+paths:
+  base: /
+  home: /blog
+  all: /blog/all.html
+  rss: /feed.xml
+
+## GitHub repository (if the site is hosted by GitHub) ##
+# repository:  #e.g. someone/someone.github.io
+# repository_tree:  #e.g. master
+
+## Language & timezone ##
+lang: en #the language of your site, eg: en(English), zh(简体中文), zh-Hans(简体中文), zh-Hant(繁體中文)
+timezone: America/New_York #see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
+
+## Author & social ##
+author:
+  name: Menchi
+  email: corecode1@gmail.com
+  facebook:  100010944095130
+  # twitter:  #your Twitter username
+  github: MenchiG
+  # googleplus:  #your Google+ username
+  # weibo:  #your Weibo username
+  # douban:  #your Douban username
+  linkedin:  mengqi-guo
+  instagram: menchi1024
+
+## Comment system (Disqus) ##
+disqus:
+  # shortname:  #the Disqus shortname for the site
+
+## Comment system (gitalk) ##
+# please refer to https://github.com/gitalk/gitalk for more info.
+gitalk:
+  # clientID:  #Github Application Client ID
+  # clientSecret:  #Github Application Client Secret
+  # repository:  #Github repo
+  # owner:  #Github repo owner
+  # admin: #Github repo owner and collaborators, only these guys can initialize github issues, IT IS A LIST.
+    # - owner
+
+## Google Analytics ##
+ga_tracking_id: UA-118681910-1 #Google analytics id for the site
+
+## Reading quantity (LeanCloud) ##
+leancloud:
+  app_id: DKT4XEbuoBK52HSamo2FUxI2-gzGzoHsz #LeanCloud App id
+  app_key: 6GmM1O4mYK5PcwNU3PQn32mD #LeanCloud App key
+  app_class: notebookCounter #LeanCloud App class
+
+# mathjax: true
+
+## Paginate ##
+paginate: 5
+paginate_path: /blog/page:num
+
+## Post excerpts ##
+excerpt_separator: <!--more-->
+excerpt_type: html # text | html
+
+## Build ##
+markdown: kramdown
+highlighter: rouge
+permalink: date
+
+exclude:
+  - CHANGELOG.md
+  - CHECKLIST.md
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README-*.md
+  - README.md
+  - gulpfile.js
+  - jekyll-text-theme.gemspec
+  - package-lock.json
+  - package.json
+  - /docs
+  - /node_modules
+  - /screenshots
+  - /test
+  - /vendor
+
+## Plugins ##
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate
+  - jemoji
+
+## Server ##
+server_url: "0.0.0.0"
+
+## Development ##
+isdebug: false
