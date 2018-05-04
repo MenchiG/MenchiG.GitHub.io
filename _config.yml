@@ -68,13 +68,13 @@ gitalk:
     # - owner
 
 ## Google Analytics ##
-# ga_tracking_id:  #Google analytics id for the site
+ga_tracking_id: UA-118681910-1 #Google analytics id for the site
 
 ## Reading quantity (LeanCloud) ##
 leancloud:
-  # app_id:  #LeanCloud App id
-  # app_key:  #LeanCloud App key
-  # app_class:  #LeanCloud App class
+  app_id: DKT4XEbuoBK52HSamo2FUxI2-gzGzoHsz #LeanCloud App id
+  app_key: 6GmM1O4mYK5PcwNU3PQn32mD #LeanCloud App key
+  app_class: notebookCounter #LeanCloud App class
 
 # mathjax: true
 
