@@ -28,8 +28,8 @@ nav_lists:
     url: /blog/about.html
 
 paths:
-  base: /
-  home: /blog
+  base: /blog/
+  home: http://menchi.xyz/
   all: /blog/all.html
   rss: /feed.xml
 
