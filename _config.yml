@@ -19,7 +19,7 @@ description: > #this means to ignore newlines until "nav_lists:"
     This is Menchi's Blog
 
 nav_lists:
-  - titles: 
+  - titles:
       en: About
       zh: 关于
       zh-Hans: 关于
@@ -49,7 +49,7 @@ author:
   github: MenchiG
   # googleplus:  #your Google+ username
   # weibo:  #your Weibo username
-  # douban:  #your Douban username
+  douban: menchi1024 #your Douban username
   linkedin:  mengqi-guo
   instagram: menchi1024
 
